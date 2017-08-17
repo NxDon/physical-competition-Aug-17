@@ -4,8 +4,7 @@
 要求：不要使用for，while循环
 */
 function getArrPowered(arr) {
-    var copyedArr = arr.concat();//deep copy
-    return copyedArr.map((elem) => Math.pow(elem,2))
+    return arr.concat().map((elem) => Math.pow(elem,2))
 }
 arr = [5,3,7,1]
 console.log(`arr = [5,3,7,1]\ngetArrPowered(arr) :[${getArrPowered(arr)}]\narr = [${arr}]`);
